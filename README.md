@@ -1,2 +1,6 @@
-# SPbPU_DistributedSystemsSoftware
-Distributed Computing Systems Software
+# Программное обеспечение распределенных вычислительных систем 2023
+
+Станислав Алексеевич @stanislav_fyodorov
+
+Заметки с лекций:
+01. Системные методы оптимизации (4.09.2023) [>>](notes/01.SystemOptimizationMethods.md)
