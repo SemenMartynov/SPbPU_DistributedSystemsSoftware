@@ -3,4 +3,6 @@
 Станислав Алексеевич @stanislav_fyodorov
 
 Заметки с лекций:
-01. Системные методы оптимизации (4.09.2023) [>>](notes/01.SystemOptimizationMethods.md)
+01. Компиляторы и средства разработки (4.09.2023) [>>](notes/01.CompilersAndToolchain.md)
+01. Компиляторы и средства разработки (продолжение) (18.09.2023) [>>](notes/002.CompilersAndToolchain.pt2.md)
+02. Системные методы оптимизации (18.09.2023) [>>](notes/02.SystemOptimizationMethods.md)
