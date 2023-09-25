@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int data[] = {14, 32, 36, 34, 95, 36, 57, 18, 19, 16};
+const int data[] = {14, 32, 36, 34, 95, 36, 57, 18, 19, 16};
 
 static inline bool is_even(int x) { return (x & 1) == 0; }
 
