@@ -168,7 +168,7 @@ int main(int argc, char *argv[])
     double start, end; /* start and stop the transfer time*/
     const int parent_pid = 0;
     const int tag = 31415926;
-    const int recvcount = 4;
+    const int recvcount = 1;
 
     MPI_Init(&argc, &argv);               /* starts MPI */
     MPI_Comm_size(MPI_COMM_WORLD, &size); /* get total num of processes */
@@ -187,7 +187,7 @@ int main(int argc, char *argv[])
     start = MPI_Wtime(); // fixing the "parcel start" time,
                          // locally for each process
 
-    MPI_Allgather(&parcel, 1, MPI_INT, parcel_collection, 1, MPI_INT, MPI_COMM_WORLD);
+    MPI_Allgather(&parcel, 1, MPI_INT, parcel_collection, recvcount, MPI_INT, MPI_COMM_WORLD);
 
     end = MPI_Wtime(); // fixing the "end of reception" time,
                        // locally for each process
