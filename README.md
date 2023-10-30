@@ -6,7 +6,8 @@
 01. Компиляторы и средства разработки (4.09.2023) [>>](notes/01.CompilersAndToolchain.md)
 02. Компиляторы и средства разработки (продолжение) (18.09.2023) [>>](notes/02.CompilersAndToolchain.pt2.md)
 02. Системные методы оптимизации (18.09.2023) [>>](notes/02.SystemOptimizationMethods.md)
-02. Основы векторизации кода (02.10.2023) [>>](notes/03.CodeVectorizationBasics.md)
+03. Основы векторизации кода (02.10.2023) [>>](notes/03.CodeVectorizationBasics.md)
+03. Основы векторизации кода (продолжение) (30.10.2023) [>>](notes/03.CodeVectorizationBasics.pt2.md)
 
 Лабораторные работы:
 - Лабораторная работа 4. Сравнение оптимизаций [>>](Lab4/report.md)
